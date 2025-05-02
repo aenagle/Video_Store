@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VideoStore>
+	<Movies>
+		<Movie>
+			<ID>1</ID>
+			<Title>Джокер</Title>
+			<Director>
+				<Name>Тодд Филлипс</Name>
+				<BirthYear>1970</BirthYear>
+			</Director>
+			<RealeseYear>2019</RealeseYear>
+			<Genre>Триллер</Genre>
+			<Country>США</Country>
+			<Rating>8.0</Rating>
+		</Movie>
+		<Movie>
+			<ID>2</ID>
+			<Title>Зелёная книга</Title>
+			<Director>
+				<Name>Питер Фарелли</Name>
+				<BirthYear>1956</BirthYear>
+			</Director>
+			<RealeseYear>2018</RealeseYear>
+			<Genre>Комедия</Genre>
+			<Country>США</Country>
+			<Rating>8.5</Rating>
+		</Movie>
+	</Movies>
+
+	<Customers>
+		<Customer>
+			<ID>1</ID>
+			<Name>Дана</Name>
+			<Email>DanaHalikova@gmail.ru</Email>
+			<PhoneNumber>89379384824</PhoneNumber>
+		</Customer>
+		<Customer>
+			<ID>2</ID>
+			<Name>Андрей</Name>
+			<Email>Fen1x@mail.ru</Email>
+			<PhoneNumber>89399384824</PhoneNumber>
+		</Customer>
+	</Customers>
+
+	<Rentals>
+		<Rental>
+			<ID>1</ID>
+			<CustomerID>1</CustomerID>
+			<MovieID>1</MovieID>
+			<RentalDate>20-03-2025</RentalDate>
+			<ReturnDate>27-03-2025</ReturnDate>
+		</Rental>
+		<Rental>
+			<ID>2</ID>
+			<CustomerID>2</CustomerID>
+			<MovieID>2</MovieID>
+			<RentalDate>01-05-2025</RentalDate>
+			<ReturnDate>08-05-2025</ReturnDate>
+		</Rental>
+	</Rentals>
+</VideoStore>
