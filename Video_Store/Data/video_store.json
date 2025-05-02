@@ -1,0 +1,62 @@
+﻿{
+	"VideoStore": {
+		"Movies": [
+			{
+				"ID": 1,
+				"Title": "Джокер",
+				"Director": {
+					"Name": "Тодд Филлипс",
+					"BirthYear": 1970
+				},
+				"ReleaseYear": 2019,
+				"Genre": "Триллер",
+				"Country": "США",
+				"Rating": 8.0
+			},
+			{
+				"ID": 2,
+				"Title": "Зелёная книга",
+				"Director": {
+					"Name": "Питер Фарелли",
+					"BirthYear": 1956
+				},
+				"ReleaseYear": 2018,
+				"Genre": "Комедия",
+				"Country": "США",
+				"Rating": 8.5
+			}
+		],
+		"Customers": [
+			{
+				"ID": 1,
+				"Name": "Дана",
+				"Surname": "Халикова",
+				"Email": "DanaHalikova@gmail.ru",
+				"PhoneNumber": "89379384824"
+			},
+			{
+				"ID": 2,
+				"Name": "Андрей",
+				"Surname": "Мингалёв",
+				"Email": "Fen1x@mail.ru",
+				"PhoneNumber": "89399384824"
+			}
+		],
+		"Rentals": [
+			{
+				"ID": 1,
+				"CustomerID": 1,
+				"MovieID": 1,
+				"RentalDate": "20-03-2025",
+				"ReturnDate": "27-03-2025"
+			},
+			{
+				"ID": 2,
+				"CustomerID": 2,
+				"MovieID": 2,
+				"RentalDate": "“01-05-2025”",
+				"“ReturnDate”": "“08-05-2025”"
+			}
+		]
+	}
+}
