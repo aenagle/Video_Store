@@ -131,11 +131,11 @@ namespace Video_Store
                     {
                         ID = (int)movie.Element("ID"),
                         Title = (string)movie.Element("Title"),
-                        Director = new Director()
+                        /*Director = new Director()
                         {
                             Name = (string)movie.Element("Director").Element("Name"),
                             BirthYear = (int)movie.Element("Director").Element("BirthYear")
-                        },
+                        },*/
                         ReleaseYear = (int)movie.Element("RealeseYear"),
                         Genre = (string)movie.Element("Genre"),
                         Country = (string)movie.Element("Country"),
